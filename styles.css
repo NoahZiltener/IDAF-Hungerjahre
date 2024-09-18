@@ -1,0 +1,121 @@
+@font-face {
+    font-family: 'UnifrakturMaguntia';
+    src: url('assets/font/UnifrakturMaguntia-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Base styling */
+body {
+    font-family: 'UnifrakturMaguntia', serif;
+    background-image: url('assets/background/background.svg'); /* Use the wood texture */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    color: #333333; /* Dark text color */
+    line-height: 1.8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+/* Paper effect */
+.paper {
+    background-color: #fdf8e1; /* Light paper color */
+    border: 1px solid #d2b48c; /* Light brown border */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); /* Shadow to lift the paper off the wood */
+    padding: 30px;
+    margin: 50px;
+    position: relative; /* To position the nails */
+    font-size: 1.2em;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Nail effect */
+.nail {
+    width: 20px;
+    height: 20px;
+    background-color: #555;
+    border-radius: 50%;
+    position: absolute;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.container {
+    display: flex; /* Flexbox to align papers horizontally */
+    justify-content: center; /* Center the papers */
+    align-items: flex-start;
+    flex-wrap: nowrap; /* Wrap papers to the next row if the screen is too narrow */
+    margin: 0 auto;
+
+}
+
+/* Position the nails in each corner */
+.nail.top-left {
+    top: -10px;
+    left: -10px;
+}
+
+.nail.top-right {
+    top: -10px;
+    right: -10px;
+}
+
+.nail.bottom-left {
+    bottom: -10px;
+    left: -10px;
+}
+
+.nail.bottom-right {
+    bottom: -10px;
+    right: -10px;
+}
+
+/* Styled headings */
+h1, h2, h3 {
+    font-family: 'UnifrakturMaguntia', serif;
+    text-align: center;
+    color: #8b4513; /* Saddle brown for headings */
+    margin-bottom: 20px;
+}
+
+/* Styled paragraphs */
+p {
+    text-align: justify;
+    margin-bottom: 20px;
+    font-family: 'UnifrakturMaguntia', serif;
+}
+
+/* Links with subtle hover effect */
+a {
+    color: #8b4513;
+    text-decoration: none;
+    border-bottom: 1px solid #8b4513;
+}
+
+a:hover {
+    color: #555;
+    border-bottom: 1px solid #555;
+}
+
+.world-map {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    display: block;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
