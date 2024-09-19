@@ -133,12 +133,12 @@ img {
     margin: 0 auto;
 }
 
-.container {
+.info {
     display: none;
 }
 
 /* Class to show the container */
-.container.visible {
+.info.visible {
     display: flex;
 }
 
@@ -207,4 +207,13 @@ img {
     font-style: italic;
     margin-top: 20px;
     color: #555;
+}
+
+.wooden-title {
+    font-size: 68px; /* Adjust the size as needed */
+    color: white; /* White color for the text */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a subtle shadow for depth */
+    padding: 10px 20px; /* Padding around the text */
+    border-radius: 5px; /* Slightly rounded corners */
+    display: inline-block; /* Ensure the background fits the text */
 }
