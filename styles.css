@@ -8,13 +8,15 @@
 /* Base styling */
 body {
     font-family: 'UnifrakturMaguntia', serif;
-    background-image: url('assets/background/background.svg'); /* Use the wood texture */
+    background-image: url('assets/background/background.svg');
+    /* Use the wood texture */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     margin: 0;
     padding: 0;
-    color: #333333; /* Dark text color */
+    color: #333333;
+    /* Dark text color */
     line-height: 1.8;
     display: flex;
     justify-content: center;
@@ -25,18 +27,23 @@ body {
 
 /* Paper effect */
 .paper {
-    background-color: #fdf8e1; /* Light paper color */
-    border: 1px solid #d2b48c; /* Light brown border */
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); /* Shadow to lift the paper off the wood */
+    background-color: #fdf8e1;
+    /* Light paper color */
+    border: 1px solid #d2b48c;
+    /* Light brown border */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    /* Shadow to lift the paper off the wood */
     padding: 30px;
     margin: 50px;
-    position: relative; /* To position the nails */
+    position: relative;
+    /* To position the nails */
     font-size: 1.2em;
     width: fit-content;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    max-width: 1700px;
 }
 
 /* Nail effect */
@@ -50,10 +57,13 @@ body {
 }
 
 .container {
-    display: flex; /* Flexbox to align papers horizontally */
-    justify-content: center; /* Center the papers */
+    display: flex;
+    /* Flexbox to align papers horizontally */
+    justify-content: center;
+    /* Center the papers */
     align-items: flex-start;
-    flex-wrap: nowrap; /* Wrap papers to the next row if the screen is too narrow */
+    flex-wrap: nowrap;
+    /* Wrap papers to the next row if the screen is too narrow */
     margin: 0 auto;
 
 }
@@ -80,10 +90,13 @@ body {
 }
 
 /* Styled headings */
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: 'UnifrakturMaguntia', serif;
     text-align: center;
-    color: #8b4513; /* Saddle brown for headings */
+    color: #8b4513;
+    /* Saddle brown for headings */
     margin-bottom: 20px;
 }
 
@@ -130,24 +143,35 @@ img {
 }
 
 .modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
     left: 0;
     top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
 }
 
 .modal-content {
-    background-color: #fdf8e1; /* Light paper color */
-    border: 1px solid #d2b48c; /* Light brown border */
-    margin: 5% auto; /* 5% from the top and centered */
+    background-color: #fdf8e1;
+    /* Light paper color */
+    border: 1px solid #d2b48c;
+    /* Light brown border */
+    margin: 5% auto;
+    /* 5% from the top and centered */
     padding: 20px;
     border: 1px solid #888;
-    width: 50%; /* Could be more or less, depending on screen size */
+    width: 50%;
+    /* Could be more or less, depending on screen size */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     position: relative;
 }
