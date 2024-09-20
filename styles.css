@@ -5,9 +5,16 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'IM Fell English';
+    src: url('assets/font/IMFellEnglish-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 /* Base styling */
 body {
-    font-family: 'UnifrakturMaguntia', serif;
+    font-family: 'IM Fell English', serif;
     background-image: url('assets/background/1454771477.svg');
     /* Use the wood texture */
     background-size: cover;
@@ -104,7 +111,7 @@ h3 {
 p {
     text-align: justify;
     margin-bottom: 20px;
-    font-family: 'UnifrakturMaguntia', serif;
+    font-family: 'IM Fell English', serif;
 }
 
 /* Links with subtle hover effect */
