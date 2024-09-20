@@ -3,6 +3,7 @@
         "name": "Ostschweiz",
         "signature": "- Noah Ziltener",
         "text": "In der Ostschweiz führten die Jahre 1816 und 1817 zu massiven Ernteausfällen und Viehschlachtungen, da das Viehfutter knapp wurde. Die Bevölkerung war gezwungen, Gras und Wurzeln zu essen, um zu überleben, und es kam zu Aufständen in den Städten. Im Toggenburg, wo die Textilindustrie zusammenbrach, verloren viele Menschen ihre Arbeit. Typhus und andere Krankheiten breiteten sich aus, und Suppenküchen versorgten die Ärmsten. Trotz der Solidarität unter den Bürgern war die Region schwer von der Hungersnot gezeichnet.",
+        "longtext": "",
         "link": "/infos/Nordschweiz.html",
         "image": "assets/images/Ostschweiz/Ostschweiz1.webp"
     },
@@ -10,6 +11,7 @@
         "name": "Nordschweiz",
         "signature": "- Noah Ziltener",
         "text": "In der Nordschweiz, insbesondere in Basel und den umliegenden ländlichen Gebieten, führten die Jahre 1816 und 1817 zu Ernteausfällen und einem dramatischen Anstieg der Lebensmittelpreise. Die Stadtregierung von Basel führte Notmaßnahmen ein, um die Bevölkerung vor dem Verhungern zu bewahren, während viele Bauern gezwungen waren, ihr Vieh zu schlachten. Überschwemmungen und Hagelstürme verschlimmerten die Lage, und viele Menschen starben an Hunger und Krankheiten. Suppenküchen und Arbeitsprogramme konnten die Krise nur teilweise lindern.",
+        "longtext": "",
         "link": "/infos/Nordschweiz.html",
         "image": "assets/images/Nordschweiz/Nordschweiz1.webp"
     },
@@ -17,6 +19,7 @@
         "name": "Südschweiz",
         "signature": "- Noah Ziltener",
         "text": "Die Südschweiz war während der Jahre 1816 und 1817 ebenfalls von der Hungersnot betroffen, aber in etwas geringerem Ausmaß. Im Tessin wurden Lebensmittel aus Italien importiert, um die schlimmsten Auswirkungen abzufedern, doch auch hier führte das kalte Wetter zu Missernten und steigenden Lebensmittelpreisen. In Graubünden kam es zu einer Hungersnot, und die Menschen mussten auf Wildpflanzen zurückgreifen, um zu überleben. Suppenküchen wurden eingerichtet, um die Ärmsten zu versorgen.",
+        "longtext": "",
         "link": "/infos/Nordschweiz.html",
         "image": "assets/images/Suedschweiz/Suedschweiz1.webp"
     },
@@ -24,6 +27,7 @@
         "name": "Zentralschweiz",
         "signature": "- Noah Ziltener",
         "text": "Die Zentralschweiz litt während der „Jahre ohne Sommer“ 1816 und 1817 stark unter den Folgen des Ernteausfalls. Kaltes Wetter und Regen führten zu einer Hungersnot, die besonders die Bergregionen traf. Menschen waren gezwungen, Gras zu essen, und Suppenküchen wurden eingerichtet. Die Viehzucht kollabierte aufgrund fehlenden Futters, und viele Familien waren hoch verschuldet. Soziale Unruhen brachen aus, als verzweifelte Bürger Getreidespeicher plünderten. Trotz leichter Besserung 1817 dauerten die wirtschaftlichen und sozialen Folgen dieser Krise noch viele Jahre an.",
+        "longtext": "",
         "link": "/infos/Nordschweiz.html",
         "image": "assets/images/Zentralschweiz/Zentralschweiz1.webp"
     },
@@ -31,6 +35,7 @@
         "name": "Westschweiz",
         "signature": "- Noah Ziltener",
         "text": "Die Westschweiz litt während der „Jahre ohne Sommer“ 1816 und 1817 stark unter Missernten und extremem Wetter. In Genf und dem Waadtland führten Kälte und Schnee im Sommer zu Hungersnöten. Lebensmittelpreise stiegen dramatisch, und viele Familien konnten sich die Grundnahrungsmittel nicht leisten. Besonders in ländlichen Gebieten griffen die Menschen auf Wildpflanzen zurück, um zu überleben. Suppenküchen und Lebensmittelverteilungen wurden organisiert, um die Not zu lindern, aber viele Menschen starben oder verließen ihre Heimat.",
+        "longtext": "",
         "link": "/infos/Nordschweiz.html",
         "image": "assets/images/Westschweiz/Westschweiz1.webp"
     }
