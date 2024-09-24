@@ -1019,6 +1019,15 @@
             paper.style.transform = `rotate(${randomRotation}deg)`;
         });
 
+        const papersbackground = document.querySelectorAll('.paper-background');
+        papersbackground.forEach(paper => {
+            const hue = Math.random() * 40 + 20; // Hue range between 20 and 60 (light browns, yellows)
+            const saturation = Math.random() * 20 + 70; // Saturation range between 70% and 90%
+            const lightness = Math.random() * 10 + 85; // Lightness range between 85% and 95%
+            const randomColor = `hsl(${hue}, ${saturation}%, ${lightness}%)`;
+            paper.style.backgroundColor = randomColor;
+        });
+
         fetch('groups.json')
             .then(response => response.json())
             .then(groups => {

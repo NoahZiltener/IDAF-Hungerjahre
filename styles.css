@@ -54,7 +54,7 @@ body {
     height: 100%;
     background-color: #fdf8e1;
     border: 1px solid #d2b48c;
-    background-image: url('path/to/paper-texture.png');
+
     background-size: cover;
     filter: url(#torn-paper);
     z-index: 0;
