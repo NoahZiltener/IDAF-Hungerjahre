@@ -155,6 +155,7 @@ img {
     height: auto;
     display: block;
     margin: 0 auto;
+    filter: url(#torn-paper);
 }
 
 .info {

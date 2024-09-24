@@ -965,7 +965,7 @@
         <div class="nail bottom-right"></div>
     </div>
 
-    <h1 class="wooden-title">Quellenverzeichniss</h1>
+    <h1 class="wooden-title">Quellenverzeichnis</h1>
 
     <div class="paper">
         <div class="paper-background"></div>
@@ -1026,6 +1026,34 @@
             const lightness = Math.random() * 10 + 85; // Lightness range between 85% and 95%
             const randomColor = `hsl(${hue}, ${saturation}%, ${lightness}%)`;
             paper.style.backgroundColor = randomColor;
+        });
+
+        const nails = document.querySelectorAll('.nail');
+        const corners = ['top-left', 'top-right', 'bottom-left', 'bottom-right'];
+
+        nails.forEach((nail, index) => {
+            const corner = corners[index % 4];
+            const offset = 5; // Offset from the corner
+            const randomOffset = Math.random() * 1; // Random offset within 10px
+
+            switch (corner) {
+                case 'top-left':
+                    nail.style.top = `${offset + randomOffset}px`;
+                    nail.style.left = `${offset + randomOffset}px`;
+                    break;
+                case 'top-right':
+                    nail.style.top = `${offset + randomOffset}px`;
+                    nail.style.right = `${offset + randomOffset}px`;
+                    break;
+                case 'bottom-left':
+                    nail.style.bottom = `${offset + randomOffset}px`;
+                    nail.style.left = `${offset + randomOffset}px`;
+                    break;
+                case 'bottom-right':
+                    nail.style.bottom = `${offset + randomOffset}px`;
+                    nail.style.right = `${offset + randomOffset}px`;
+                    break;
+            }
         });
 
         fetch('groups.json')
